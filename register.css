@@ -1,0 +1,78 @@
+body{
+  margin: 0px;
+  font-family: monospace;
+}
+
+
+.register-form{
+  border-radius: 20px;
+  background-color: white;
+  border: solid 2px black;
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,button{
+  width: 90%;
+  border-radius: 30px;
+  padding: 7px;
+  margin-top: 5px;
+}
+button{
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 9px;
+  background-color: rgba(107, 255, 184, 0.85);
+}
+.register-form h2{
+  text-align: center;
+  border-bottom: solid 2px black;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+form{
+  margin-left: 22px;
+}
+
+p{
+  text-align: center;
+}
+
+label{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+img{
+  width: 200px;
+}
+
+.navbar{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  background-color: white;
+  height: 65px;
+}
+.nav-items{
+  display: flex;
+  width: 400px;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.nav-items a{
+  color: black;
+  text-decoration: none;
+}

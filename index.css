@@ -1,0 +1,121 @@
+body{
+   background:black;
+   overflow-x:hidden;
+   overflow-y:hidden;
+
+}
+#icon1{
+  position: absolute;
+  width: 244px;
+  height: 244px;
+  left: 210px;
+  top: 250px;
+  bottom: 490px;
+}
+#icon2{
+  position: absolute;
+  width: 244px;
+  height: 244px;
+  right: 42%;
+  top: 260px;
+  bottom: 490px;
+}
+#icon3{
+  position: absolute;
+  width: 244px;
+  height: 244px;
+  left: 71.25%;
+  right: 11.81%;
+  top: 250px;
+  bottom: 490px;
+}
+
+#icon1:hover{
+  background-color: #5CFFC4;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px #5CFFC4;
+}
+
+#icon2:hover{
+  background-color: #5CFFC4;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px #5CFFC4;
+}
+
+#icon3:hover{
+  background-color: #5CFFC4;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px #5CFFC4;
+}
+
+#logo{
+position: absolute;
+width: 582px;
+height: 220px;
+left: 500px;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+#background{
+  position: absolute;
+  width: 1101px;
+  height: 766px;
+  left: 220px;
+  top: 189px;
+  padding-bottom: 120px;
+  opacity: 0.5;
+}
+h2{
+  position: absolute;
+  width: 550px;
+  height: 53px;
+  left: 535px;
+  top: 145px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 53px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#client{
+  position: absolute;
+  width: 350px;
+  height: 244px;
+  left: 220px;
+  top: 470px;
+  bottom: 41.5%;
+  color:white;
+  font-size: 40px;
+}
+#admin{
+  position: absolute;
+  width: 400px;
+  height: 244px;
+  left: 640px;
+  top: 470px;
+  bottom: 41.5%;
+  color:white;
+  font-size: 40px;
+}
+#department{
+  position: absolute;
+  width: 700px;
+  height: 244px;
+  left: 995px;
+  top: 470px;
+  bottom: 41.5%;
+  color:white;
+  font-size: 40px;
+}
+#rights{
+  left: 590px;
+  position: absolute;
+  color: white;
+  top:900px;
+}
+
+div.container{
+  display: flex;
+  justify-content: center;
+}
